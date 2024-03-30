@@ -4,16 +4,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap"
-      rel="stylesheet"
-    />
     <title>2-snackbar</title>
     <link rel="stylesheet" href="./css/2-snackbar.css" />
   </head>
   <body>
-    <p><a href="./index.html">Go Back</a></p>
-
+    <p><a href="./index.html">Go to home</a></p>
     <form class="form">
       <label>
         Delay (ms)
@@ -23,13 +18,7 @@
       <fieldset>
         <legend>State</legend>
         <label>
-          <input
-            class="delay-text"
-            type="radio"
-            name="state"
-            value="fulfilled"
-            required
-          />
+          <input type="radio" name="state" value="fulfilled" required />
           Fulfilled
         </label>
         <label>
@@ -40,7 +29,6 @@
 
       <button type="submit">Create notification</button>
     </form>
-
-    <script src="./js/2-snackbar.js" type="module"></script>
+    <script type="module" src="./js/2-snackbar.js"></script>
   </body>
 </html>

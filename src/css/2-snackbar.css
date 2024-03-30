@@ -1,79 +1,24 @@
-body {
-  width: 250px;
-}
-.form {
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
-}
-.form > label {
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-  font-size: 16px;
-  font-weight: 400;
-  letter-spacing: 0.04em;
-}
-input[name='delay'] {
-  width: 360px;
-  height: 40px;
-  font-size: 16px;
-  font-weight: 400;
-  letter-spacing: 0.04em;
-  padding-left: 16px;
-  border: 1px solid #808080;
-  border-radius: 4px;
-}
-
-input[name='delay']:hover {
-  outline: transparent;
-  border-color: #000000;
-}
-
-input[name='delay']:focus {
-  outline: transparent;
-  border-color: #4e75ff;
-}
-
 fieldset {
-  display: flex;
-  flex-direction: row;
-  gap: 48px;
-  justify-content: center;
-  width: 360px;
-  height: 64px;
-  font-size: 16px;
-  font-weight: 400;
-  letter-spacing: 0.04em;
-  border: 1px solid #808080;
-  border-radius: 4px;
-}
-
-fieldset:hover {
-  border-color: #000000;
-}
-
-fieldset label {
-  display: flex;
-  flex-direction: row;
-  gap: 8px;
-  font-size: 16px;
-  font-weight: 400;
-  letter-spacing: 0.04em;
+  width: 330px;
+  margin-bottom: 24px;
 }
 
 button {
-  width: 360px;
-  height: 40px;
-  font-size: 16px;
-  font-weight: 500;
-  letter-spacing: 0.04em;
-  color: #ffffff;
+  cursor: pointer;
   border: none;
   border-radius: 8px;
+  padding: 8px 16px;
+  width: 360px;
+  height: 40px;
   background: #4e75ff;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
 }
 
-button:hover {
-  background: #6c8cff;
+label + label {
+  margin-left: 48px;
 }
