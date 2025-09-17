@@ -7,7 +7,7 @@
   font-weight: 400;
 
   color: #242424;
-  background-color: rgba(255, 255, 255, 0.87);
+  /* background-color: rgba(181, 213, 64, 0.87); */
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -22,11 +22,7 @@ body {
   min-width: 100vw;
   min-height: 100vh;
   margin: 0;
-}
-
-main {
-  flex-grow: 1;
-}
-main:has(.back-link) {
-  text-align: center;
+  background: url('../img/00000IMG_00000_BURST20220501135700983_COVER-01.jpeg')
+    no-repeat center center fixed;
+  background-size: cover;
 }
